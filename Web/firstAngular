@@ -1,0 +1,25 @@
+<h2>Setting Up AngularJS</h2>
+
+Terminal
+ touch index.html
+  creates a new file named index.html
+ open .
+  opens the current directory
+  
+Download AngularJS 1.6 <a href="https://angularjs.org/">here</a> 
+
+Adding the CDN
+'''<script src='js/angular.min.js'></script>'''
+
+<h2>Emulating a Hosting Server</h2>
+
+Angular: Single-page app (more fluidity)
+
+Terminal
+  python -m SimpleHTTPServer
+  Go to Chrome
+    Enter 127.0.0.1:8000 OR localhost:8000 OR 0.0.0.0:8000
+   
+
+<h2>The MVC Architecture</h2>
+
