@@ -11,11 +11,11 @@ $rails new APPNAME
 $rails g controller CONTROLLERNAME
 app/controllers/CONTROLLERNAME_controller.rb
 
-  def VIEWNAME (i.e., index)
+  def ACTIONNAME (i.e., index)
   end
 ```
 
-3. Create View
+3. Navigate to View
 
 ```
 views/CONTROLLERNAME/VIEWNAME.html.erb
@@ -25,7 +25,7 @@ views/CONTROLLERNAME/VIEWNAME.html.erb
 
 ```
 config/routes.rb
-get '/' => 'CONTROLLERNAME#VIEWNAME'
+get '/' => 'CONTROLLERNAME#ACTIONNAME'
 ```
 
 5. Install Gems
